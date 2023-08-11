@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Light";
+    src: local("Light"),
+     url(~/assets/fonts/Inter-Light.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Regular";
+    src: local("Regular"),
+     url(~/assets/fonts/Inter-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Medium";
+    src: local("Medium"),
+     url(~/assets/fonts/Inter-Medium.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Semi-Bold";
+    src: local("Semi-Bold"),
+     url(~/assets/fonts/Inter-SemiBold.ttf) format("truetype");
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Regular';
+    box-sizing: border-box;
+}
